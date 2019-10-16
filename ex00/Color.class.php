@@ -1,32 +1,27 @@
 <?php
 	class Color {
-		
 		public $red;
 		public $green;
 		public $blue;
 		public static $verbose = false;
-
+		
 		public function __construct($rgb) {
-			if (array_key_exists("rgb", $rgb))
-			{
+			if (array_key_exists("rgb", $rgb)) {
 				$this->red = intval(($rgb["rgb"] >> 16) & 0xff);
 				$this->green = intval(($rgb["rgb"] >> 8) & 0xff);
 				$this->blue = intval(($rgb["rgb"]) & 0xff);
 			}
-			if ((isset($rgb['red'])) && (isset($rgb['green'])) && (isset($rgb['blue'])))
-			{
+			if ((isset($rgb['red'])) && (isset($rgb['green'])) && (isset($rgb['blue']))) {
 				$this->red = intval($rgb['red']);
 				$this->green = intval($rgb['green']);
 				$this->blue= intval($rgb['blue']);
 			}
-			if (self::$verbose)
-			{
+			if (self::$verbose) {
 				echo (($this->__toString())." contructed.".PHP_EOL);
 			}
-		}
-
+		} 
 		public function __destruct() {
-			if (self::$verbose)
+			if (self::verbose)
 			{
 				echo (($this->__toString())." destructed.".PHP_EOL);
 			}
@@ -40,7 +35,7 @@
 						'green' => $this->green + $new_add->green,
 						'blue' => $this->blue +  $new_add->blue)));
 		}
-		
+
 		public function sub($new_sub) {
 			return (
 				new Color (
@@ -60,7 +55,7 @@
 		}
 
 		function __toString() {
-			return (sprintf("Color( red:%4d, green:%4d, blue:%4d )", $this->red, $this->green, $this->blue));
+			return (vsprintf("Color( red:%4d, green:%4d, blue:%4d )", array($this->red, $this->green, $this->blue)));
 		}
 
 		public static function doc(){
