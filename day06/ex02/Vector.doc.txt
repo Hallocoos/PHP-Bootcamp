@@ -1,0 +1,21 @@
+<- Vector ----------------------------------------------------------------------
+The vector class has an X, Y, Z and a W co-ordinate that is pre set to be 0.
+It has has an instance of the Color class.
+The X, Y and Z values are a mandatory input.
+The W and the Color Variables are optional.
+The Class has the following methods : __toString
+    get_X - gets x co-ordinate
+    get_Y - gets y co-ordinate
+    get_Z - gets z co-ordinate
+    get_W - gets 2 co-ordinate
+    get_Color - gets the rgc information from the color class
+    normalize - to normalize divide the x,y and z values by the magnitude
+    add - adds this x, y and z to the rhs x y and z. returns a new vector
+    sub - subtracts rhs x, y and z from this x y and z. returns a new vector
+    opposite - x becomes -x, y becomes -y, and z becomes -z
+    scalarProduct - new scalar product multiplies all the values by $k.
+    dotProduct - dotProduct returns in a float value of (this->_x * input->_x) + (this->_y * input->_y) + (this->_z * input->_z).
+    cos - returns in a float value of the dot value divided by the magnitue of current * input.
+    crossProduct - new x = y * input z, new y = z * input x, new z = x * input y - y * input x;
+    crossProduct returns the cross multiplication of both vectors
+---------------------------------------------------------------------- Vector ->

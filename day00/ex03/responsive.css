@@ -1,0 +1,133 @@
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 2px;
+    empty-cells: hide;
+}
+
+.empty {
+    border-color: lightblue;
+}
+
+.number {
+    font-size: 100%;
+    text-align: right;
+}
+
+.sym {
+    font-size: 250%;
+    text-align: center;
+}
+
+.weight {
+    font-size: 150%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 2500px) and (min-width: 2000px){
+    table td tr{
+        size: 100%;
+    }
+    .number{
+        font-size: 100%;
+         }
+    .sym{
+        font-size: 100%;
+        }
+    .weight{
+         font-size: 100%;
+        }
+ }
+ @media only screen and (max-width: 2000px) and (min-width: 1600px){
+    table td tr{
+        size: 80%;
+    }
+    .number{
+        font-size: 80%;
+         }
+    .sym{
+        font-size: 80%;
+        }
+    .weight{
+         font-size: 80%;
+        }
+ }
+
+ @media only screen and (max-width: 1600px) and (min-width: 1200px){
+    table td tr{
+        size: 60%;
+    }
+    .number{
+        font-size: 60%;
+         }
+    .sym{
+        font-size: 60%;
+        }
+    .weight{
+         font-size: 60%;
+        }
+ }
+
+ @media only screen and (max-width: 1200px) and (min-width: 800px){
+    table td tr{
+        size: 40%;
+    }
+    .number{
+        font-size: 40%;
+         }
+    .sym{
+        font-size: 40%;
+        }
+    .weight{
+         font-size: 40%;
+        }
+ }
+
+ @media only screen and (max-width: 800px) and (min-width: 400px){
+    table td tr{
+        size: 20%;
+    }
+    .number{
+        font-size: 20%;
+         }
+    .sym{
+        font-size: 20%;
+        }
+    .weight{
+         font-size: 20%;
+        }
+ }
+
+ @media only screen and (max-width: 400px) and (min-width: 0px){
+    table td tr{
+        size: 5%;
+    }
+    .number{
+        font-size: 5%;
+         }
+    .sym{
+        font-size: 5%;
+        }
+    .weight{
+         font-size: 5%;
+        }
+ }

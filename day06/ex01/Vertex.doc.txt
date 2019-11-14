@@ -1,0 +1,17 @@
+<- Vertex ----------------------------------------------------------------------
+The vertex class has an X, Y, Z and a W co-ordinate that is pre set to be 1.00.
+It has has an instance of the Color class.
+The X, Y and Z values are a mandatory input.
+The W and the Color Variables are optional.
+The Class has the following methods : __toString
+    get_X - gets x co-ordinate
+    get_Y - gets y co-ordinate
+    get_Z - gets z co-ordinate
+    get_W - gets 2 co-ordinate
+    get_Color - gets the rgc information from the color class
+    set_X - allows you to set the x co-ordinate
+    set_Y - allows you to set the y co-ordinate
+    set_Z - allows you to set the z co-ordinate
+    set_W - allows you to set the w co-ordinate
+    set_Color - allows you to set the rgb in the color class
+---------------------------------------------------------------------- Vertex ->

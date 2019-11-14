@@ -1,0 +1,135 @@
+    body {
+        background-color:#505050;
+    }
+
+    .container {
+        width: 100%;
+		display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        background-color: rgb(145, 145, 145);
+        padding: 10px 10px;
+        border: 1px solid #646464;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px black;
+    }
+
+    .speechbox {
+        position: absolute;
+        background-color: rgb(168, 252, 150);
+        padding: 10px 10px;
+        border: rgb(168, 252, 150);
+        border-radius: 10px;
+        height: 180px;
+        width: 525px;
+        margin-right: 1000px;
+        margin-top: 530px;
+    }
+
+    .header {
+        position: relative;
+        width: 1420px;
+        height: 140px;    
+    }
+
+    .tab {
+        width : 120px;
+        height: 420px;
+        margin-top: 20px;
+    }
+
+    .screen {
+        width: 1024px;
+        height: 576px;
+        margin-top: 20px;
+    }
+
+    .magnify {
+        position: absolute;
+        left: 1125px;
+        top: 35px;
+    }
+
+    .close {
+        position: absolute;
+        left: 1400px;
+        top: 120px;
+    }
+
+    .reload {
+        position: absolute;
+        left: 1400px;
+        top: 20px;
+    }
+
+    #day {
+        max-height: 150px;
+        max-width: 600px;
+    }
+
+    .arrow {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .main {
+        margin-left: 25px;   
+        margin-top: 10px;
+    }
+    
+
+    .oiel {
+        margin-left: 20px;
+        margin-top: 15px;
+        border: 5px;
+        border-color: red; 
+    }
+    
+
+    .outil {
+        margin-left: 25px; 
+        margin-top: 15px;
+    }
+    
+
+    .chat {
+        margin-left: 25px;  
+        margin-top: 10px;
+    }
+
+    .book {
+        margin-left: 30px;
+    }
+
+    .towel {
+        margin-left: 30px;
+    }
+
+    .brick {
+        background-image: url(resources/brick.jpg);
+        width: 60;
+        height: 60;
+        padding-left: 60;
+        background-repeat: repeat;
+    }
+
+    .active {
+        border: 5px solid red;
+        border-radius: 5px;
+    }
+
+    .shadow {
+        text-shadow: 2px 2px #ff0000;
+    }
+
+    .bigword {
+        font-size: 200%;
+        font-family: Georgia;
+    }
+
+    .smolbigword {
+        font-size: 140%;
+        font-family: Verdana;
+    }
