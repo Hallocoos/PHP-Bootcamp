@@ -1,0 +1,1 @@
+PHP-Bootcamp is a 2 week crash course on everything PHP. We go from basic HTML, CSS and PHP to Javascript and SQL. We learn the basics of all these tools in the first 5 days, and over the weekend use all the tools to build an E-commerce website. The next 5 days we use to refine our recently received knowledge regarding full stack and following good programming conventions.
